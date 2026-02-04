@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Escobedo - El Corazón de Grano y Cantera</title>
+    <style>
+        /* Eliminamos márgenes para que la imagen toque los bordes */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: #f9f7f2; /* Color de fondo crema del folleto */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Contenedor principal que abarca todo el ancho */
+        .page-body {
+            position: relative;
+            width: 100%;
+            line-height: 0; /* Elimina espacio extra debajo de la imagen */
+        }
+
+        .page-body img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Botones invisibles responsivos */
+        .nav-link {
+            position: absolute;
+            background: rgba(255, 0, 0, 0); /* Cambia a 0.3 para ver las cajas al ajustar */
+            cursor: pointer;
+            z-index: 10;
+        }
+
+        /* Ajuste de coordenadas en porcentajes sobre la imagen principal */
+        .btn-home { top: 2%; left: 6%; width: 6%; height: 10%; }
+        .btn-activities { top: 4%; left: 18%; width: 10%; height: 6%; }
+        .btn-accommodation { top: 4%; left: 30%; width: 14%; height: 6%; }
+        .btn-events { top: 4%; left: 47%; width: 8%; height: 6%; }
+        .btn-food { top: 4%; left: 60%; width: 7%; height: 6%; }
+        .btn-shopping { top: 4%; left: 72%; width: 10%; height: 6%; }
+
+        /* Sección de texto inferior basada en el contenido del folleto */
+        .description-text {
+            padding: 40px 10%;
+            line-height: 1.6;
+            text-align: center;
+            background-color: #f9f7f2;
+            color: #4a4238;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-body">
+        <img src="https://lh3.googleusercontent.com/u/0/d/1YwWcxf5W4wYdzdA4XJkZIVDhEHn3FcXO" alt="Pedro Escobedo: The Heart of Grain and Stone">
+
+        <a href="https://drive.google.com/file/d/1hshg77eBdx4obRLJyCBj77wzaM5m6ucg/view?usp=drive_link" class="nav-link btn-home" title="Inicio"></a>
+        <a href="https://drive.google.com/file/d/1QZq983ncQwYsGAFOfq88uGYs4lYE_Oiw/view?usp=sharing" class="nav-link btn-activities" title="Activities"></a>
+        <a href="accommodation.html" class="nav-link btn-accommodation" title="Accommodation"></a>
+        <a href="events.html" class="nav-link btn-events" title="Events"></a>
+        <a href="food.html" class="nav-link btn-food" title="Food"></a>
+        <a href="shopping.html" class="nav-link btn-shopping" title="Shopping"></a>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Pedro Escobedo - El Corazón de Grano y Cantera</p>
+    </footer>
+
+</body>
