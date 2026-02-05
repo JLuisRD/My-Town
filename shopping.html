@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Escobedo - El Corazón de Grano y Cantera</title>
+    <style>
+        /* Eliminamos márgenes para que la imagen toque los bordes */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: #f9f7f2; /* Color de fondo crema del folleto */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Contenedor principal que abarca todo el ancho */
+        .page-body {
+            position: relative;
+            width: 100%;
+            line-height: 0; /* Elimina espacio extra debajo de la imagen */
+        }
+
+        .page-body img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Botones invisibles responsivos */
+        .nav-link {
+            position: absolute;
+            background: rgba(255, 0, 0, 0); /* Cambia a 0.3 para ver las cajas al ajustar */
+            cursor: pointer;
+            z-index: 10;
+        }
+
+        /* Ajuste de coordenadas en porcentajes sobre la imagen principal */
+        .btn-home { top: 4%; left: 7%; width: 5%; height: 8%; }
+        .btn-activities { top: 7%; left: 19%; width: 7.5%; height: 4%; }
+        .btn-accommodation { top: 7%; left: 31.2%; width: 12%; height: 4%; }
+        .btn-events { top: 7%; left: 48.7%; width: 6%; height: 4%; }
+        .btn-food { top: 7%; left: 62.1%; width: 4.5%; height: 4%; }
+        .btn-shopping { top: 7%; left: 73.9%; width: 7.5%; height: 4%; }
+        
+        footer {
+            background-color: #3e4e3a; /* Verde oscuro como el de tu imagen */
+            color: white;
+            text-align: center;
+            padding: 5px 0;
+            margin: 0; /* Eliminamos el margin-top que causaba el hueco */
+            width: 100%;
+
+        footer p {
+    margin: 0; /* Elimina el margen del texto para que no ensanche el footer */
+    font-size: 10px; /* Opcional: reduce un poco la letra si es muy angosto */
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="page-body">
+        <img src="shooping.png" alt="Pedro Escobedo: The Heart of Grain and Stone">
+
+        <a href="index.html" class="nav-link btn-home" title="Inicio"></a>
+        <a href="activities.html" class="nav-link btn-activities" title="Activities"></a>
+        <a href="accommodation.html" class="nav-link btn-accommodation" title="Accommodation"></a>
+        <a href="events.html" class="nav-link btn-events" title="Events"></a>
+        <a href="food.html" class="nav-link btn-food" title="Food"></a>
+        <a href="shopping.html" class="nav-link btn-shopping" title="Shopping"></a>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Pedro Escobedo - El Corazón de Grano y Cantera</p>
+    </footer>
+
+</body>
